@@ -40,8 +40,8 @@
                   </MenuBar>
                   <HBox spacing="10.0">
                      <children>
-                        <TextField />
-                        <TextField layoutX="10.0" layoutY="10.0" />
+                        <TextField promptText="Usuario" />
+                        <TextField layoutX="10.0" layoutY="10.0" promptText="Senha" />
                         <Button mnemonicParsing="false" text="Log in" />
                         <Region HBox.hgrow="ALWAYS" />
                         <Button mnemonicParsing="false" text="Settings" />
